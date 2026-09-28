@@ -23,10 +23,11 @@ urlpatterns = [
     path('index/', views.index, name='index'),
     path('user_list/', views.user_list, name='user_list'),
     path('user_add/', views.user_add, name='user_add'),
-    path('tpl/', views.tpl, name='tpl'),
-    path('news/', views.news, name='news'),
+    #path('tpl/', views.tpl, name='tpl'),
+    #path('news/', views.news, name='news'),
     path('something/', views.something, name='something'),
     path('login/', views.login, name='login'),
+    path('orm/', views.orm, name='orm'),
 
 
 ]
